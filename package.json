@@ -9,17 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mantine/core": "^5.10.5",
+    "@mantine/hooks": "^5.10.5",
+    "@mantine/rte": "^5.10.5",
     "@supabase/auth-helpers-nextjs": "^0.5.4",
     "@supabase/auth-helpers-react": "^0.3.1",
     "@supabase/auth-ui-react": "^0.2.8",
-    "@supabase/supabase-js": "^2.8.0",
+    "@supabase/supabase-js": "^2.21.0",
+    "@tiptap/extension-bubble-menu": "^2.0.3",
+    "@tiptap/extension-color": "^2.0.3",
+    "@tiptap/pm": "^2.0.2",
+    "@tiptap/react": "^2.0.2",
+    "@tiptap/starter-kit": "^2.0.2",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.1",
+    "flowbite": "^1.6.4",
+    "flowbite-react": "^0.4.2",
+    "html-react-parser": "^3.0.16",
     "next": "13.2.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sass": "^1.62.0"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.7"
